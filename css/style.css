@@ -14,6 +14,7 @@
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	display: flow-root;
 }
 .menu ul li{
 	list-style: none;
@@ -76,65 +77,65 @@
 	background-color: green;
 }
 /*table number 2*/
-
-
-.table-1{
-	text-align: center;
-	background-color: #f6f5f5;
+.let-talk{
+	padding: 80px 0px;
+    background-color: #EEE;
 }
-.table-1 h1{
-	color: #121013;
-    font-family: "Roboto",Sans-serif;
-    font: 40px;
-    margin-bottom: 18px;
-
+.container{
+	width: 1140px;
+	margin: auto;
 }
-.table-1 p{
-	color: #121013;
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 28px;
-    font-size: 15px;
-    line-height: 25px;
-
-}
-.table-1 .ta{
-	text-align: center;
-	background-color:#f6f5f5; 
-	padding: 15px;
-	width: 32%;
-	border-style: 1px;
-	margin-bottom:15px;
-
-}
-.table-2{
-	text-align: center;
-	background-color: #f6f5f5;
-	
-}
-.table-2 textarea{
-	background-color: #f6f5f5;
+.bg-container{
 	width: 73%;
-	border-style: 1px;
-	margin-right: -30px;
-	margin-left: -30px;
-	align-items: center;
+	margin: auto;
 }
-.button{
-	text-align: center;
-	background-color: #f6f5f5; 
+.bg-container h1{
+	color: #2F323A;
+    font-family: "Roboto",Sans-serif;
+    font-size: 40px;
+    margin-bottom: 16px;
+    text-align: center;
 }
-.button .bu{
-	color: white;
-	padding: 20px 10px;
-	background-color: black;
-	border: none;
-	margin-bottom: 10px;
-	
+.bg-container p{
+	font-family: 'Poppins', sans-serif;
+    color: #6F6F6F;
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 29px;
+    text-align: center;
 }
-.button .bu:hover{
-	background-color: blue;
-	border-radius: 10                    px;
+.bg-container .gap{
+	margin-bottom: 20px;
 }
+.bg-container .from-control{
+	padding: 16px;
+    margin: 5px;
+    width: 44%;
+    background: transparent;
+    border: 1px solid black;
+    border: 1px solid black;
+}
+.bg-container .message{
+	background: transparent;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 9px;
+    margin-left: 5px;
+    height: 350px;
+    width: 795px;
+}
+.bg-container .fonts{
+	padding: 16px;
+    background: black;
+    color: white;
+    border: 1px solid black;
+    width: 15%;
+    margin-left: 5px;
+}
+
+/*table number 2 end*/
+
+
 
 /*futer start*/
 .futter{
@@ -292,6 +293,23 @@
 	font-size: 15px;
 	line-height: 25px;
 
+}
+.nevbar{
+	width: 100%;
+	float: left;
+}
+.logo{
+	width: 20%;
+	float: left;
+	margin-top: -10px;
+
+}
+.me{
+	width: 80%
+	float:left;
+	line-height: 40px;
+	text-align: center;
+	margin-bottom: 5px;
 }
 
 
